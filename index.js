@@ -4,9 +4,9 @@
 //   katzDeliLine.push(name);
 //   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 // }
-
-function takeANumber (katsDeliLine){
-  katzDeliLine[]
+var i = 0
+function takeANumber (katzDeliLine){
+  katzDeliLine.push(i+1)
   return `You are ticket number ${katsDeliLine.length}.`
 }
 
