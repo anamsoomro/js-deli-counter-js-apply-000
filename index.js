@@ -6,7 +6,7 @@
 // }
 
 function takeANumber (katsDeliLine){
-  katzDeliLine.push(1)
+  katzDeliLine[.push()]
   return `You are ticket number ${katsDeliLine.length}.`
 }
 
