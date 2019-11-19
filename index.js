@@ -5,6 +5,10 @@
 //   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 // }
 
+function takeANumber (katsDeliLine){
+  katzDeliLine.push(1)
+  return `You are ticket number ${katsDeliLine.length}.`
+}
 
 // nowServing returns the first person being served 
 
