@@ -1,9 +1,9 @@
 // takeANumber welcomes a new guest and adds them to the line
 
-function takeANumber (katzDeliLine, name){
-  katzDeliLine.push(name);
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
-}
+// function takeANumber (katzDeliLine, name){
+//   katzDeliLine.push(name);
+//   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
+// }
 
 
 // nowServing returns the first person being served 
