@@ -4,10 +4,12 @@
 //   katzDeliLine.push(name);
 //   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 // }
-var i = 0
+
+var ticketNumber = 0
 function takeANumber (katzDeliLine){
-  katzDeliLine.push(i+1)
-  return `You are ticket number ${katsDeliLine.length}.`
+  ticketNumber++
+  katzDeliLine.push(ticketNumber)
+  return `You are ticket number ${ticketNumber}.`
 }
 
 // nowServing returns the first person being served 
